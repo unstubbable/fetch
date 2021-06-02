@@ -1,0 +1,27 @@
+{
+  "name": "@strictsoftware/fetch",
+  "version": "0.2.0",
+  "description": "Universal fetch for Node.js and the browser without polyfill/ponyfill",
+  "keywords": [
+    "fetch",
+    "isomorphic",
+    "universal",
+    "node",
+    "browser",
+    "whatwg"
+  ],
+  "repository": "https://github.com/unstubbable/fetch",
+  "license": "MIT",
+  "author": "Hendrik Liebau <mail@hendrik-liebau.de>",
+  "main": "node.js",
+  "browser": "browser.js",
+  "types": "index.d.ts",
+  "files": [
+    "browser.js",
+    "node.js",
+    "index.d.ts"
+  ],
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
