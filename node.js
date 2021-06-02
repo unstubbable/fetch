@@ -10,8 +10,6 @@ const fetch = function (url, options) {
   return realFetch.call(this, url, options);
 };
 
-fetch.ponyfill = true;
-
 module.exports = exports = fetch;
 exports.fetch = fetch;
 exports.Headers = nodeFetch.Headers;
